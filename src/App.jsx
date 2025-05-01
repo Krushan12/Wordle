@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1 className="heading">Wordle App</h1>
+      <h1 className="heading">Lexicon</h1>
       <Board key={key} targetWord={word} />
       <button className="new-game-button" onClick={handleNewGame}>
         New Game
